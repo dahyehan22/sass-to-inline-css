@@ -1,58 +1,58 @@
 body {
-	margin: 0;
-	background-color: #eaecf3;
-	color: #343434;
+  margin: 0;
+  background-color: #eaecf3;
+  color: #343434;
 }
 
 table {
-	border-spacing: 0px;
-	border-color: transparent;
-	border: none;
-	border: 0px;
-	border-collapse: collapse;
-	vertical-align: bottom;
-	margin: 0;
+  border-spacing: 0px;
+  border-color: transparent;
+  border: none;
+  border: 0px;
+  border-collapse: collapse;
+  vertical-align: bottom;
+  margin: 0;
 }
 
 td {
-	margin: 0;
-	border-spacing: 0px;
-	border-color: transparent;
-	border: none;
-	border: 0px;
-	border-collapse: collapse;
-	vertical-align: bottom; 
+  margin: 0;
+  border-spacing: 0px;
+  border-color: transparent;
+  border: none;
+  border: 0px;
+  border-collapse: collapse;
+  vertical-align: bottom;
 }
 td img {
-	display: block;
+  display: block;
 }
 .is-parent-wrapper {
-	background: white;
+  background: white;
 }
 
-
 .outer-container {
-	width: $outerWidth;
+  width: $outerWidth;
 }
 
 .body-gutter {
-	width: $bodyGutter;
+  width: $bodyGutter;
 }
 .inner-container {
-	width: 600px - $calcGutter;
+  width: 600px - $calcGutter;
 
-	h1 {
-		color: #343434;
-		text-transform: uppercase;
-	}
+  h1 {
+    color: #343434;
+    text-transform: uppercase;
+  }
 
-	p {
-		line-height: 28px;
-
-	}
+  p {
+    line-height: 28px;
+  }
 }
 
 .spacer {
-	height: $spacer;
-	td { height: $spacer; }
+  height: $spacer;
+  td {
+    height: $spacer;
+  }
 }

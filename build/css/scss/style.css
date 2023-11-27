@@ -6,7 +6,7 @@
   width: 120px; }
 
 .nav {
-  background: #B09762; }
+  background: #b09762; }
   .nav .gap {
     width: 300px; }
   .nav a {
@@ -19,6 +19,9 @@
   height: 20px; }
   .nav-height td {
     height: 20px; }
+
+.test {
+  color: red; }
 
 body {
   margin: 0;

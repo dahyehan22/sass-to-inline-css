@@ -1,31 +1,35 @@
 .title {
-	width: 180px;
-	color: white;
+  width: 180px;
+  color: white;
 }
 .inBrowser {
-	width: 120px;
+  width: 120px;
 }
 
 .nav {
-	background: #B09762;
+  background: #b09762;
 
-	.gap {
-		width: 340 - 40px;
-	}
+  .gap {
+    width: 340 - 40px;
+  }
 
-	a {
-		color: white;
-	}
+  a {
+    color: white;
+  }
 }
 
 .nav-gutter {
-	width: $gutterSmall;
+  width: $gutterSmall;
 }
 
 .nav-height {
-	height: 20px;
+  height: 20px;
 
-	td {
-		height: 20px;
-	}
+  td {
+    height: 20px;
+  }
+}
+
+.test {
+  color: red;
 }
